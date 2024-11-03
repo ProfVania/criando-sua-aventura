@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(212, 184, 106);
+    color: rgb(19, 66, 28);
+    font-family: "Itim", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    text-size-adjust: 200%;
+
+
+}
+
+button {
+    background: rgb(108, 106, 98);
+    border-radius: 5px;
+    border: 1px black solid;
+    color: white;
+    font-family: "Itim", cursive;
+}
+
+button:hover {
+    size: 50px;
+    cursor: pointer;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+
+}
+
